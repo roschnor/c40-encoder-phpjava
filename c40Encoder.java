@@ -64,7 +64,7 @@ public class C40Encoder {
       } else {
         U = (1600 * U1) + (40 * U2) + U3 + 1;
 
-        resa = floatval(U / 256);
+        resa = floatval( ((float) U) / 256.0);
         res = floatval(floor(resa));
         res2 = (resa - res) * 256;
         div = dechex((int) res);
