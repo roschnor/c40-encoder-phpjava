@@ -46,7 +46,6 @@ public class C40Encoder {
       }
       if (val[1] != null) {
         U2 = ord2c40(val[1]);
-        U2 = 0;
       } else {
         U2 = 0;
       }
